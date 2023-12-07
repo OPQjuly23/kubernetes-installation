@@ -27,7 +27,7 @@ echo "     STEP 3: Updating apt"
 echo "            -> Updated ...."
 
 echo "     STEP 4: Installing Docker"
-        curl -fsSL https://get.docker.com -o get-docker.sh 
+        curl -sSL https://get.docker.com -o get-docker.sh 
         sh get-docker.sh > /dev/null 2>&1
 echo "            -> Done"
 
